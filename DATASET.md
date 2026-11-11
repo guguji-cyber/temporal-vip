@@ -1,7 +1,12 @@
 # 数据集说明
 
-完整数据集 **85 GB**（train 51 GB / val 17 GB / test 17 GB，共 9249 个 `.npz`），
-超出 GitHub 仓库限制，因此托管在 Hugging Face，不随本仓库分发。
+完整数据集 **87.3 GB**（train 50.8 GB / val 16.7 GB / test 16.7 GB，共 9249 个 `.npz`），
+超出 GitHub 仓库与 Git-LFS 的限制，因此托管在 Hugging Face，不随本仓库分发。
+
+数据集与原始代码由论文作者维护：
+
+- 数据集：https://huggingface.co/datasets/yml2002/Temporal-VIP
+- 原始代码：https://github.com/yml2002/vip
 
 ## 下载
 

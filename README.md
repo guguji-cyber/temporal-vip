@@ -1,6 +1,6 @@
 # Temporal-VIP: Video Important Person Identification
 
-Official implementation of **"Mining Multi-Modality Spatio-Temporal Cues for Video Important Person Identification"**.
+Code for **"Mining Multi-Modality Spatio-Temporal Cues for Video Important Person Identification"**.
 
 **VIP-Net** identifies the *Video Important Person* — the single individual who holds social
 dominance over a multi-person video clip — from static spatial cues, dynamic temporal cues, and
@@ -14,15 +14,30 @@ textual descriptions, and generates a natural-language rationale for its decisio
 
 ---
 
+## Authors & attribution
+
+**Paper authors:** Xiao Wang, Weijie Jin, Minglei Yang, Bin Yang, Wenke Huang,
+Zheng Wang, Xin Xu, Mang Ye.
+
+The original implementation and dataset are maintained at
+[`yml2002/vip`](https://github.com/yml2002/vip) and
+[`yml2002/Temporal-VIP`](https://huggingface.co/datasets/yml2002/Temporal-VIP).
+This repository redistributes the code with the authors' permission and links to the
+original dataset; it is not an independent reimplementation.
+
+---
+
 ## Links
 
 | Resource | URL |
 |---|---|
-| Dataset | https://huggingface.co/datasets/yml2002/Temporal-VIP |
-| Code | https://github.com/yml2002/vip |
+| **Dataset** (87.3 GB) | https://huggingface.co/datasets/yml2002/Temporal-VIP |
+| **Original code** | https://github.com/yml2002/vip |
 
-> The dataset is **85 GB** and is therefore hosted on Hugging Face, not in this repository.
-> See [Dataset](#dataset) below.
+> The dataset is **87.3 GB** (train 50.8 GB / val 16.7 GB / test 16.7 GB; 9249 clips).
+> It exceeds GitHub's repository and Git-LFS limits and is therefore hosted on Hugging Face
+> rather than in this repository. See [DATASET.md](DATASET.md) for the download command,
+> directory layout and the `.npz` schema.
 
 ---
 
