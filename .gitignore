@@ -1,0 +1,73 @@
+# ============================================================
+# Temporal-VIP / VIP-Net
+# 数据集不入库（85 GB，见 README「数据集」一节）
+# ============================================================
+
+# ---------- 数据集（体积过大，走外链） ----------
+data/
+preprocessed_fixed/
+*.npz
+*.npy
+*.pkl
+*.pickle
+
+# ---------- 模型权重 ----------
+models/huggingface/
+*.pt
+*.pth
+*.ckpt
+*.bin
+*.safetensors
+*.onnx
+*.h5
+*.hdf5
+
+# ---------- 训练产物 ----------
+outputs/
+checkpoints/
+records/
+visualizations/
+logs/
+*.log
+
+# ---------- Python ----------
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+.coverage.*
+htmlcov/
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# ---------- 虚拟环境 ----------
+venv/
+.venv/
+env/
+
+# ---------- 编辑器 / 系统 ----------
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+*.swp
+*~
+
+# ---------- 备份文件 ----------
+*.bak
+*.bak_original
+*.bak3
+*.orig
+*.rej
+
+# ---------- 本地配置与缓存 ----------
+.env
+.env.*
+.huggingface/
+.cache/
+cache/
